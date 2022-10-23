@@ -2,7 +2,7 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, function (tabs) {
     // Do something
     var tab = tabs[0];
     const sender = document.getElementsByClassName("go");
-    document.getElementById("las").value = tab.url;
+    document.getElementById("las").innerHTML = tab.url;
 });
 
 
