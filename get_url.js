@@ -2,11 +2,13 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, function (tabs) {
     // Do something
     var tab = tabs[0];
     const sender = document.getElementsByClassName("go");
-    document.getElementById("pl1").innerHTML = tab.url;
-    document.getElementById("linkUrl").setAttribute("href",tab.url)
+    document.getElementById("las").value = tab.url;
 });
 
-searchUrbanDict = function(word){
-    var query = word.selectionText;
-    chrome.tabs.create({url: "http://www.urbandictionary.com/define.php?term=" + query});
-};
+
+var script = document.createElement('script');
+script.src = "assets/jq.js";
+document.getElementsByTagName('head')[0].appendChild(script);
+
+var url = $.get("http")
+document.getElementById("pl1").innerHTML = url;
