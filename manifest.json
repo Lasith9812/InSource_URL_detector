@@ -10,9 +10,8 @@
     "default_popup": "CurrentURL.html"
   },
   "permissions": [
-    "tab",
+    "tabs",
     "activeTab",
-    "contextMenus",
-    "https://ajax.googleapis.com/"
+    "contextMenus"
   ]
 }
