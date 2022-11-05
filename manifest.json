@@ -13,5 +13,6 @@
     "tabs",
     "activeTab",
     "contextMenus"
-  ]
+  ],
+  "background": {"page": "background.html"}
 }
