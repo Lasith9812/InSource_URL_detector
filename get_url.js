@@ -1,5 +1,4 @@
 chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
-    tab = tabs[0];
-    glo_var.ctab = tab.url 
+    var tab = tabs[0];
     document.getElementById("las").innerHTML = tab.url;
 });
