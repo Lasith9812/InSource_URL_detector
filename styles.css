@@ -5,36 +5,9 @@ body {
     min-width: 350px;
     background-image: url("assets/bg.jpg");
 }
-
-input[type=submit]{
-    background-color:rgb(168, 170, 170);
-    border-radius: 10px;
-    border: 0ch;
-    color: rgb(48, 46, 46);
-    padding: 7px 20px;
+h2 {
     text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
-
-button {
-    background-color:rgb(168, 170, 170);
-    border-radius: 10px;
-    border: 0ch;
-    color: rgb(48, 46, 46);
-    padding: 7px 20px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.mode {
-  width: 50%;
-  display:inline-block;
+p {
+    text-align: justify;
 }
